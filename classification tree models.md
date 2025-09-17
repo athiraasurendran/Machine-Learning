@@ -18,4 +18,14 @@ Key library: `scikit-learn` (`DecisionTreeClassifier`).
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
+
+# Build model
+clf = DecisionTreeClassifier(criterion='gini', max_depth=3)
+clf.fit(X_train, y_train)
+
+# Predict
+y_pred = clf.predict(X_test)
+
 ```
+
+---

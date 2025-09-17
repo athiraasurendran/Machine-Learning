@@ -7,3 +7,9 @@ A classification tree is a decision tree used to predict categorical outcomes (e
 - Each split reduces impurity (e.g., Gini Index, Entropy).
 
 - Ends at leaf nodes with predicted class labels.
+
+---
+
+Key library: `scikit-learn` (`DecisionTreeClassifier`).
+
+---

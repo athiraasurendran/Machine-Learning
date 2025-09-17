@@ -13,3 +13,9 @@ A classification tree is a decision tree used to predict categorical outcomes (e
 Key library: `scikit-learn` (`DecisionTreeClassifier`).
 
 ---
+
+```python
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+```
